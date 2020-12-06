@@ -1,0 +1,148 @@
+body{
+    margin: auto;
+}
+
+.tableImages{
+    width:100%;
+    background-color: yellow;
+    
+}
+nav{
+    display: flex;
+    background-color: #224e8c;
+    color: burlywood;
+    position: absolute;
+    top:0;
+    width: 100%;
+  }
+nav > div{
+    width: 13%;
+    margin: 20px;
+}
+button{
+    background-color: #224e8c;
+    border: none;
+    border-style: none solid none solid;
+    border-color: whitesmoke;
+    border-width: thin;
+    color: white;
+
+}
+
+
+.otherImages{
+    display:flex;
+    background-color: #224e8c;
+}
+.otherImages > div{
+    background-color: #f1f1f1;
+
+}
+
+.container{
+    display:flex;
+}
+
+
+
+.IntroToWebsite{
+    margin: 10% 0%;
+    background-color: black;
+    color: cornsilk;
+    padding: 130px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+th{
+    width:10%;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+p{
+    font-size: 26px;
+}
+.shortDisctiption{
+    padding: 10px 10px;
+
+}
+.Title{
+    text-align: center;
+}
+.priceTag{
+    display:flex;
+}
+.priceTag > div{
+    width: 50%;
+}
+.price{
+    text-align: initial;
+}
+.viewButton{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button1{
+    width: 88%;
+    height:35px;
+    background-color: #224e8c;
+}
+.phone{display: none;}
+.instagram{display: none;}
+.twitter{display: none;}
+.facebook{display: none;}
+
+
+
+
+
+
+footer{
+    background-color: #224e8c;
+    color: white;
+    border-style: solid none none none;
+    border-color: black;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 600px){
+
+    nav{
+        position: fixed;
+        top: 0;  
+        width: 100%;
+    }
+    nav > div {
+        margin: 15px;
+    }
+    th:nth-child(even){
+        background-color: #ce0000;
+        display:none;
+    
+    }
+    .IntroToWebsite{
+        margin: 15% 4%;
+    }
+    p{
+        font-size: 14px;
+    }
+    .priceTag > div{
+        width: 50%;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;  
+        width: 100%;
+    }
+
+}
+

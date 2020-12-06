@@ -1,0 +1,193 @@
+   /* Video */
+   * {
+    box-sizing: border-box;
+    }
+    /* double Border around entire page */
+    body {
+        margin: 0;
+        font-family: Arial;
+        font-size: 17px;
+    }
+
+    #myVideo {
+        width: 100%;
+        position: fixed;
+        right: -14px;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+    .content {
+        position: fixed;
+        top:0;
+        bottom: 0;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+        border: 15px solid black;
+    }
+
+
+    .inner{
+        border: 5px solid black;
+        margin: -14px;
+        padding: 20px;
+        height: -webkit-fill-available;
+    }
+
+
+    .Box{
+        width:90%;
+        height:77%;
+        background-color: rgb(0,0,0,0.53);
+        right:-6%;
+        bottom: -10%;
+        position: relative;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+    .Title{
+        text-align:center;
+        flex:1;
+        height:50%;
+        font: 65px 'Hanuman', serif;
+        padding-top: 50px;
+        font-weight: 900;
+    }
+    .bsrBox{
+        flex:1;
+        display:flex;
+    }
+    .bsrBox > div{
+        flex:1;
+        text-align:center;
+        margin:20px;
+        color:white;
+    }
+    .icon{
+        height:100%;
+        transition: height .5s;
+
+    }
+    .icons{
+        height:30%;
+    }
+    .option{
+
+        height:20%;
+        transition: color 2s, height 1s;
+    }
+    .disc{
+        height:35%;
+        transition: color 2s, height 1s;
+    }
+    .is-hidden{
+        height:0%;
+        color: transparent;
+        transition: color .75s ease, height 1s;
+    }
+
+    .svg-inline--fa.fa-w-9 {
+        width: 2.5625em;
+        height: 50%;
+    }
+    .svg-inline--fa.fa-w-16 {
+        width: 3.5625em;
+        height: 50%;
+    }
+    .svg-inline--fa.fa-w-18 {
+        width: 3.5625em;
+        height: 50%;
+    }
+    .xTraSpace{
+        height:50px;
+    }
+    .swo{
+        font: 40px 'Hanuman', serif;
+        bottom:5px;
+    }
+
+    @media screen and (max-width:750px){
+    
+        .content {
+            position: sticky;
+            top:0;
+            bottom: 0;
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            border: 15px solid black;
+        }
+    
+    
+        .inner{
+            border: 5px solid black;
+            margin: -14px;
+            padding: 20px;
+            height: -webkit-fill-available;
+        }
+    
+    
+        .Box{
+            width:90%;
+            height:96%;
+            background-color: rgb(0,0,0,0.53);
+            right:-6%;
+            bottom: -2%;
+            position: relative;
+            display:block;
+
+        }
+        .Title{
+            text-align:center;
+            height:50%;
+            font: 47px 'Hanuman', serif;
+            padding-top: 50px;
+            font-weight: 900;
+        }
+        .bsrBox{
+            display:block;
+        }
+        .bsrBox > div{
+            /* display:unset !important;  */
+            /* property: initial;  */
+            text-align:center;
+            margin:27px;
+            color:white;
+            padding: 54px 0;
+        }
+        .icon{
+            height:100%;
+            transition: height .5s;
+    
+        }
+        .icons{
+            height:30%;
+        }
+        .option{
+    
+            height:20%;
+            transition: color 2s, height 1s;
+        }
+        .disc{
+            height:35%;
+            transition: color 2s, height 1s;
+        }
+        .is-hidden{
+            height:30%;
+            color: cornsilk;
+        }
+
+        .xTraSpace{
+            height:50px;
+        }
+        .swo{
+            font: 24px 'Hanuman', serif;
+            bottom:5px;
+            padding: 12px 0;
+        }
+    
+    }
